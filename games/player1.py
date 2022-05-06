@@ -27,11 +27,7 @@ while game_running == True:
         else:
             player['health']= player['health'] - monster['attack']
             if player['health'] <=0:
-                passwinget install --id Microsoft.Powershell --source winget
-winget install --id Microsoft.Powershell.Preview --source winget
-
-
-        print(monster['health'])
+                print(monster['health'])
         print(player['health'])
 
 
