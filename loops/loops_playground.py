@@ -50,24 +50,31 @@
 
 food= [
         ['baby spinage', 2.78],
-        ['hot chocolate', 11.10],
-        ['crackers', 4.20],
-        ['bacon', 9.90],
-        ['carrots', 2.24],
-        ['orangies', 6.19],
+        ['hot chocolate', 3.70],
+        ['crackers', 2.10],
+        ['bacon', 9.00],
+        ['carrots', 0.56],
+        ['orangies', 3.08],
     ]
-
-print("====Izzy's Food Mart======")
+total = 0
+total_list= []
 for category in food:
     item_name = category[0]
-number_item = int(input(f"{item_name}: "))
-print(item_name)
-price = category[1]  
-print(price * number_item)
-print(f" TOTAL ${price * number_item}")
+    number_item = int(input(f"{item_name}: "))
+    # print(item_name)
+    price = category[1]  
+    # print(price * number_item)
+    total_per_item = price * number_item
+    total += total_per_item
+    total_list.append([item_name,total_per_item])
+print(total_list)
 
+# print(f" TOTAL ${price * number_item}")
 print("====Izzy's Food Mart======")
-
+for item in total_list:
+    print(f"{item[0]} ${item[1]}")
+print("=============")
+print(total)
 
 # #------------------ Loops -- Question 2------ 
 
