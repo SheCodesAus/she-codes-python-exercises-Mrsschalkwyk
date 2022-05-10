@@ -48,4 +48,4 @@ else:
 
 
 print("YOu got " + str(score) + "questions correct! ")
-print("YOu got " + str(score / 4) * 100 + "%")
+print("YOu got " + str(score / 4) * 100 "%")

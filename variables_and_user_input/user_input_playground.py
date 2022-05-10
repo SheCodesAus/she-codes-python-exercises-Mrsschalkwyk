@@ -38,4 +38,3 @@ print (f" You have  {years_left} until you are 90")
 
 special_number_1= int(input('give a decimal'))
 special_number_2= int(input('give a decimal'))
-result_number= 

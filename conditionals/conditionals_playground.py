@@ -134,10 +134,10 @@
 # else:
 #         print("Try Again")        
 
-name_key = "hayley@test.com"
-email = input("enter email : ")
+# name_key = "hayley@test.com"
+# email = input("enter email : ")
 
-if name_key == email:
-        print("valid")
-else:
-        print("not valid")        
+# if name_key == email:
+#         print("valid")
+# else:
+#         print("not valid")        

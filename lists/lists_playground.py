@@ -67,14 +67,18 @@
 # ]
 # print(mailing_list)
 
+
+
 ##-----Question3
-# how do I do this????------------
+# how do I do this????------------  USER INPUT --> A LIST
 
-# students=input('please enter 3 names ')
-# print(students)
+# students=input('please enTER A NAME: ')
+# print[students]
+#counter=0 +1 when counter is smaller and = to 3S
 
-a=[1,2,3,]
-b=[4,5,6,]
-c=[7,8,9,]
-combined= a+b+c
-print(combined)
+# a=[1,2,3,]
+# b=[4,5,6,]
+# c=[7,8,9,]
+# d=[[1,2,3],[4,5,6],[7,8,9]]
+# e= a + b + c #matreix
+# print(a,b,c,d,e) #.apend
