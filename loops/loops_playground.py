@@ -77,10 +77,13 @@ print("=============")
 print(total)
 
 # #------------------ Loops -- Question 2------ 
-
+# #loop length
+# print(range (4))
 # word = input(f"please enter word: ")
-# for letter in word:
-#      print(letter)
+# # for letter in word:
+# #       print(letter)
+# for number in range(len(word)):
+#     print(number,word[number])
 
 # #------------------ page 1Loops -- Question 3
 
