@@ -31,10 +31,11 @@
 # height = input ("what is ur height ? ")
 # print (f" your name is {name} and you are {height} cm tall")
 
-name = input(' What is yor name? ')
-age = int(input(" what is your age?"))
-years_left= int(90 - age)
-print (f" You have  {years_left} until you are 90")
+# name = input(' What is yor name? ')
+# age = int(input(" what is your age?"))
+# years_left= int(90 - age)
+# print (f" You have  {years_left} until you are 90")
 
-special_number_1= int(input('give a decimal'))
-special_number_2= int(input('give a decimal'))
+# special_number_1= int(input('give a decimal'))
+# special_number_2= int(input('give a decimal'))
+

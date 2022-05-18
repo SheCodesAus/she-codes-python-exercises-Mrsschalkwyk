@@ -82,3 +82,16 @@
 # d=[[1,2,3],[4,5,6],[7,8,9]]
 # e= a + b + c #matreix
 # print(a,b,c,d,e) #.apend
+
+
+#Question two
+
+mailing_list =[
+    ["chilli", "chilli@thechihauhau.com"],
+    ["rosary", "roray@moth.catchers"],
+    ["remus", "remus@kapers.dog"],
+    ["Prince Thomas of whitepaw", "hrh.thomas@royalty.wp"],
+    ["ivy","noreply@golden.xyz"],
+]
+
+
