@@ -48,49 +48,77 @@
 # from unicodedata import category
 
 
-food= [
-        ['baby spinage', 2.78],
-        ['hot chocolate', 3.70],
-        ['crackers', 2.10],
-        ['bacon', 9.00],
-        ['carrots', 0.56],
-        ['orangies', 3.08],
-    ]
-total = 0
-total_list= []
-for category in food:
-    item_name = category[0]
-    number_item = int(input(f"{item_name}: "))
-    # print(item_name)
-    price = category[1]  
-    # print(price * number_item)
-    total_per_item = price * number_item
-    total += total_per_item
-    total_list.append([item_name,total_per_item])
-print(total_list)
+# food= [
+#         ['baby spinage', 2.78],
+#         ['hot chocolate', 3.70],
+#         ['crackers', 2.10],
+#         ['bacon', 9.00],
+#         ['carrots', 0.56],
+#         ['orangies', 3.08],
+#     ]
+# total = 0
+# total_list= []
+# for category in food:
+#     item_name = category[0]
+#     number_item = int(input(f"{item_name}: "))
+#     # print(item_name)
+#     price = category[1]  
+#     # print(price * number_item)
+#     total_per_item = price * number_item
+#     total += total_per_item
+#     total_list.append([item_name,total_per_item])
+# print(total_list)
 
-# print(f" TOTAL ${price * number_item}")
-print("====Izzy's Food Mart======")
-for item in total_list:
-    print(f"{item[0]} ${item[1]}")
-print("=============")
-print(total)
+# # print(f" TOTAL ${price * number_item}")
+# print("====Izzy's Food Mart======")
+# for item in total_list:
+#     print(f"{item[0]} ${item[1]}")
+# print("=============")
+# print(total)
 
-# #------------------ Loops -- Question 2------ 
+# #------------------ Loops -CATSsdG- Question 2------ 
 # #loop length
 # print(range (4))
 # word = input(f"please enter word: ")
 # # for letter in word:
-# #       print(letter)
+# #             print(letter)
 # for number in range(len(word)):
-#     print(number,word[number])
+            # print(number,word[number])
+#Output a string of CATS
+
+# letters= ['c','a','t','s']
+# items  = (0,'c') #you can unpack veriables
+# index, letter = items
+# for index,letter in enumerate(letters):
+#     #print(letter[0], letter[1])
+#     print(index,letter)
+
+# enumerate(itteration)=index = tuple
+
+
 
 # #------------------ page 1Loops -- Question 3
 
 # User input pyrimd
+# input_number = int(input(f" Enter a number "))
+
+# for number in range(input_number):
+#     print((number+1) *"*")
+
+#FUll pyrimd not mine
+# print("Enter Number of Rows: ")
+# row = int(input())
+# print("Star Pyramid of " + str(row) + " Rows or Lines: ")
+# for i in range(row):
+#     for s in range(row, i, -1):
+#         print(end=" ")
+#     for j in range(i+1):
+#         print(end="* ")
+#     print()
 
 # ===========Exercises Page 2 Question 1==============
 # print('~~~TIMES TABLES~~~~')
+# counter= +1
 # input_number = int(input(f" Enter a number "))
 # print = counter * input_number
 
@@ -133,11 +161,11 @@ print(total)
 # print(total )
 
 
-# total = 0
-# random_numbers = [3,5,,9,1]
-# counter=0
-# print(counter)
-# print(random_numbers[counter]) #3
-# while c < len(random_numbers):
-#     total+=random_numbers[counter]
-#     counter+=1
+total = 0
+random_numbers = [3,5,,9,1]
+counter=0
+print(counter)
+print(random_numbers[counter]) #3
+while c < len(random_numbers):
+    total+=random_numbers[counter]
+    counter+=1

@@ -1,29 +1,26 @@
 import os
 import csv
+cwd = os.getcwd()  # Get the current working directory (cwd)
 
-# cwd = os.getcwd()  # Get the current working directory (cwd)
-# print("This is my directory" + cwd)
-# files = os.listdir(cwd)  # Get all the files in that directory
-# print("These are the files ",files)
-# print("Files in %r: %s" % (cwd, files))
+print("This is my directory" + cwd)
+files = os.listdir(cwd)  # Get all the files in that directory
+print("These are the files ",files)
+print("Files in %r: %s" % (cwd, files))
 
-with open("2016_pilbara.csv ") as csv_file:
+with open("2016_pilbara.csv") as csv_file:
     reader = csv.reader(csv_file)
     for line in reader:
         print(line)
 
-# population = []
+population = []
 
-# with open("she-codes-python-exercises-Mrsschalkwyk\csv_files\galaxies.csv", encoding="utf-8") as csv_file:
-#     reader = csv.reader(csv_file) # create a reader or writer object
-#     for row in reader: #for each row create an empty list
-#         #seperates elements based on the delimiter that has been given
-#         population.append(line)
+with open("2016_pilbara.csv", encoding="utf-8") as csv_file:
+    reader = csv.reader(csv_file) # create a reader or writer object
+    for row in reader: #for each row create an empty list
+        #seperates elements based on the delimiter that has been given
 
-#         print(population)
-
-#     for age_group in population: #age_group = ['0-4 years', '4711']
-#         print(f"{age_group[0]} {age_group[1]}")
+    for age_group in population: #age_group = ['0-4 years', '4711']
+        print(f"{age_group[0]} {age_group[1]}")
 
 # writing a csv file 
 # with open("population.csv", mode="w", encoding="utf-8") as csv_file:

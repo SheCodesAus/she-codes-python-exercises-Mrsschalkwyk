@@ -95,3 +95,5 @@ mailing_list =[
 ]
 
 
+print(mailing_list[0][1])
+

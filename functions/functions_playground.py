@@ -43,10 +43,10 @@
 #     print(results)
 #     # return 3 * number #how to #x3=print
 
-# def convert_cm_to_in(length_cm):
-#     length_in_inches = length_cm / 2.54
-#     return length_in_inches
-# print(convert_cm_to_in)    
+def convert_cm_to_in(length_cm):
+    length_in_inches = length_cm / 2.54
+    return length_in_inches
+print(convert_cm_to_in)    
 
 # def calculate_mean(x,y):
 #     total = x + y
@@ -57,9 +57,10 @@
 # # if you want to make a function and save it or later write PASS under it to skip
 # #     
 
-# def convert_fh_to_c(temp):
-#     formula = temp
-# #google formula
+def convert_fh_to_c(temp_c):
+    temp_f = (temp_c - 32)
+    return temp_f
+
 
 # # 
 
@@ -75,33 +76,33 @@
 # print(convert_temp_in_f(350))
 #----------------------------------TUESDAY
 
-from calendar import day_abbr
-from ossaudiodev import SOUND_MIXER_SYNTH
-from time import strftime, strptime
+# from calendar import day_abbr
+# from ossaudiodev import SOUND_MIXER_SYNTH
+# from time import strftime, strptime
 
 
-CONDITIONS !TEST!
-#what if the list was empty
-numbers= []
+# CONDITIONS !TEST!
+# #what if the list was empty
+# numbers= []
 
-def min_num(lst):
-    #create a variable assign it to 
-    #the first item in the list.
+# def min_num(lst):
+#     #create a variable assign it to 
+#     #the first item in the list.
 
-    if len(lst)==0:
-    if lst ==[]: 
+#     if len(lst)==0:
+#     if lst ==[]: 
 
-iso_string
-strptime()-- what data type do they expect and return? if expeced string or int
-strftime
+# iso_string
+# strptime()-- what data type do they expect and return? if expeced string or int
+# strftime
 
-GENERATE SUmmery == do this last.
-function will take list of lists-- iso, min temp, max, temp
-calculate minimum from lists , convert into celsius, add which day
-similar to exersise questions
+# GENERATE SUmmery == do this last.
+# function will take list of lists-- iso, min temp, max, temp
+# calculate minimum from lists , convert into celsius, add which day
+# similar to exersise questions
 
-def return_the_same(x):
-    return x
+# def return_the_same(x):
+#     return x
 
-print(return_the_same("hi"))    
+# print(return_the_same("hi"))    
 
