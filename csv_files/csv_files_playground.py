@@ -2,25 +2,28 @@ import os
 import csv
 cwd = os.getcwd()  # Get the current working directory (cwd)
 
-print("This is my directory" + cwd)
-files = os.listdir(cwd)  # Get all the files in that directory
-print("These are the files ",files)
-print("Files in %r: %s" % (cwd, files))
+# print("This is my directory" + cwd)
+# files = os.listdir(cwd)  # Get all the files in that directory
+# print("These are the files ",files)
+# print("Files in %r: %s" % (cwd, files))
 
-with open("2016_pilbara.csv") as csv_file:
-    reader = csv.reader(csv_file)
-    for line in reader:
-        print(line)
 
-population = []
+#---------------PILBARA---------------------
+# with open("2016_pilbara.csv") as csv_file:
+#     reader = csv.reader(csv_file)
+#     for line in reader:
+#         print(line)
 
-with open("2016_pilbara.csv", encoding="utf-8") as csv_file:
-    reader = csv.reader(csv_file) # create a reader or writer object
-    for row in reader: #for each row create an empty list
-        #seperates elements based on the delimiter that has been given
+# population = []
 
-    for age_group in population: #age_group = ['0-4 years', '4711']
-        print(f"{age_group[0]} {age_group[1]}")
+# with open("2016_pilbara.csv", encoding="utf-8") as csv_file:
+#     reader = csv.reader(csv_file) # create a reader or writer object
+#     for line in reader: #for each row create an empty list
+#         population.append(line)
+#         #seperates elements based on the delimiter that has been given
+
+#     for age_group in population: #age_group = ['0-4 years', '4711']
+#         print(f"{age_group[0]} {age_group[1]}")
 
 # writing a csv file 
 # with open("population.csv", mode="w", encoding="utf-8") as csv_file:
@@ -42,9 +45,9 @@ with open("2016_pilbara.csv", encoding="utf-8") as csv_file:
 # starts off as a false
 
 # if item == list_words[0]:
-#     REd_Total = A + 1
-#     REd_Total =0 + 1
-#     print(f'REd: {}Red_Total} ')
+#     Red_Total = A + 1
+#     Red_Total =0 + 1
+#     print(f'Red: {}Red_Total} ')
 ####+++ CLASS PROJECT
 # numbers= [4,7,10,1,2] FIND THE LOWEST NUMBER IN LIST
 # is this less < than in a list, assign it to a variable.
@@ -65,5 +68,10 @@ with open("2016_pilbara.csv", encoding="utf-8") as csv_file:
 # print(min_value)        
 
 
+#----------colours_20--------------\\
 
 
+with open("colours_20.csv") as csv_file:
+    reader = csv.reader(csv_file)
+    for line in reader:
+        print(line[4])

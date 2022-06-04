@@ -122,7 +122,33 @@
 # input_number = int(input(f" Enter a number "))
 # print = counter * input_number
 
+#first attempt
+# input_number = int(input(f" Enter a number"))
+# output= range(len(input_number))
+# for num in range(input_number):
+#     print (output * input_number)
+#second attempt
+# input_number = int(input(f"please enter word: "))
+# for num in input_number:
+#             print(num)
+# for number in range(len(input_number)):
+#             print(number,input_number[number])
 
+# #final
+# def print_table(num): 
+#     """ This function prints multiplication table of a given number"""
+#     for i in range(1,11): 
+#         print(num,' x ', i, ' = ',num*i) 
+# # end of function table
+
+
+# # input a number
+# n = int(input("Please Enter a number to print its multiplication table:"))
+
+# call the function tanle by passing actual parameter 'n' 
+
+# print_table(n)
+#========================================================
 # # #for Loops
 # name= "Jenny"
 
@@ -161,11 +187,11 @@
 # print(total )
 
 
-total = 0
-random_numbers = [3,5,,9,1]
-counter=0
-print(counter)
-print(random_numbers[counter]) #3
-while c < len(random_numbers):
-    total+=random_numbers[counter]
-    counter+=1
+# total = 0
+# random_numbers = [3,5,,9,1]
+# counter=0
+# print(counter)
+# print(random_numbers[counter]) #3
+# while c < len(random_numbers):
+#     total+=random_numbers[counter]
+#     counter+=1

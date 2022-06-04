@@ -1,3 +1,4 @@
+import statistics
 # # from turtle import done
 
 
@@ -43,23 +44,38 @@
 #     print(results)
 #     # return 3 * number #how to #x3=print
 
-def convert_cm_to_in(length_cm):
-    length_in_inches = length_cm / 2.54
-    return length_in_inches
-print(convert_cm_to_in)    
+# def convert_cm_to_in(length_cm):
+#     length_in_inches = length_cm / 2.54
+#     return length_in_inches
+# print(convert_cm_to_in)    
 
 # def calculate_mean(x,y):
 #     total = x + y
 #     mean = total / 2
 #     return mean
 
+data = [4,3,2,6]
+x = statistics.mean(data)
+print("Mean is :", x)
+
+    # if weather_data == []:
+    #             return ()
+    # else:
+    #     length = len(weather_data)
+    #     total_low_temp = 0
+    #     for low_temp in weather_data:
+    #         total_low_temp += low_temp
+    #     total_low_temp /= length
+    #     return total_low_temp
+    
+    
 # #function can be no or as many 
 # # if you want to make a function and save it or later write PASS under it to skip
 # #     
 
-def convert_fh_to_c(temp_c):
-    temp_f = (temp_c - 32)
-    return temp_f
+# def convert_fh_to_c(temp_c):
+#     temp_f = (temp_c - 32)
+#     return temp_f
 
 
 # # 
